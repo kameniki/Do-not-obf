@@ -1,5 +1,8 @@
-
+--TE updateed?(V1.1)
+--!nocheck
+--!native
 if getgenv then getgenv().LUARMOR_AllowKeyCheckSkip = true end
+
 
 local arguments = table.pack(...)
 local sharedEnv = getgenv and getgenv() or _G
